@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body,html{
+    background: linear-gradient(to right, #091a2a , #0b355b, #091a2a);
+    color: white;
+}
+.bg-login {
+background-image: url(/assets/img/intro/pexels-francisco-buduba-5092154.jpg);
+background-position: center center;
+background-size: cover;
+}
+form a {
+text-decoration: none;
+}
+.ms-n6 {
+margin-left: -4rem!important;
+}
+.ms-auto {
+margin-left: auto!important;
+}
+.ikono {
+color: #427eef;
+padding-right: 2px;
+}

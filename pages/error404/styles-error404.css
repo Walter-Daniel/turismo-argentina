@@ -1,0 +1,25 @@
+b, strong{
+    font-size: 5rem;
+}
+.container-error{
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+@media (min-width: 768px) { 
+    .container-error{
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+     
+     }
+}
+.link-error{
+    text-decoration: none;
+    font-weight: bold;
+}

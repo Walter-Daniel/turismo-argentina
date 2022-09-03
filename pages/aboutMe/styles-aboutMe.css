@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.image-aboutMe{
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+.profile{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}

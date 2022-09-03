@@ -1,0 +1,109 @@
+body {
+  display: flex;
+  height: 100%;
+  background-color: #0b355b;
+  font-family:'Poppins', sans-serif;
+}
+
+.contact_form {
+  width: 460px;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #fbfbfb;
+  padding: 30px 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+input {
+  background-color: #fbfbfb;
+  width: 400px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #1736e4;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+
+textarea {
+  background-color: #fbfbfb;
+  width: 400px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #1736e4;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+  font-family: 'Poppins', sans-serif
+}
+
+label {
+  display: block;
+  float: center;
+}
+
+button {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: #1736e4;
+  border-color: #6f65cc;
+  border-style: solid;
+  border-radius: 10px;
+  width: 400px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+button p {
+  color: #fff;
+}
+
+span {
+  color: #1736e4;
+}
+
+.aviso {
+  font-size: 13px;
+  color: #0e0e0e;
+}
+
+
+h1 {
+  font-size: 39px;
+  text-align: letf;
+  padding-bottom: 20px;
+  color: #1736e4;
+  font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+  font-size: 16px;
+  padding-bottom: 30px;
+  color: #0e0e0e;
+  font-family: 'Poppins', sans-serif;
+}
+
+.formulario input:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+
+.formulario textarea:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+
+.direction_maps {
+  object-fit: contain
+}
